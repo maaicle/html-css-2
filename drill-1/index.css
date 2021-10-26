@@ -1,0 +1,35 @@
+body {
+    /* height: 500px; */
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    background-color: #444444;
+}
+
+.middle {
+    /* position: relative; */
+    display: flex;
+    align-items: flex-end;
+    /* max-height: 100%; */
+    height: calc(100vh - 150px);
+    width: 100%;
+    /* background-color: #c06060; */
+}
+
+.side {
+    position: relative;
+    height: 100%;
+    width: 100px;
+    background-color: #dadada;
+    /* z-index: 2; */
+}
+
+.center {
+    height: 50px;
+    width: 100%;
+    background-color: #222222;
+}
