@@ -3,16 +3,56 @@ body {
 }
 
 .colorBox {
-    border-style: solid;
-    height: 150px;
+    height: 180px;
 }
 
 .box1 {
-    border-style: solid;
+    position: relative;
     height: 100px;
+    background-color: #D8D8D8;
+}
+
+.box1-1 {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 20px;
+    left: 20px;
+    background-color: #5B8FDC;
 }
 
 .box2 {
-    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 200px;
+    padding: 15px;
+}
+
+.box3 {
+    background-color: #5B8FDC;;
+}
+.box4 {
+    background-color: #7BE0C3
+}
+.box5 {
+    background-color: #C2E791;
+}
+.box6 {
+    background-color: #F5E752;
+}
+
+.circle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 25px;
+    padding: 19px 30px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-family: arial;
 }
